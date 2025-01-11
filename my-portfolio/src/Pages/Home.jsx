@@ -199,7 +199,7 @@ const Home = () => {
               <p className="text-gray-700">
                 Old Dominion University/ Upright Education
               </p>
-              <p className="text-gray-600">Graduated in jan 2025</p>
+              <p className="text-gray-600">Graduated in january 2025</p>
             </div>
           </div>
         </div>
