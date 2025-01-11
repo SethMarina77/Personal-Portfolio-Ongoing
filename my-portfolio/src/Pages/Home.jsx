@@ -115,43 +115,86 @@ const Home = () => {
             <ul className="list-disc list-inside text-gray-700">
               <li>HTML/CSS</li>
               <li>JavaScript (ES6+)</li>
+              <li>TypeScript</li>
               <li>React.js</li>
+              <li>React Router</li>
               <li>Node.js</li>
               <li>Express.js</li>
               <li>MongoDB</li>
-              <li>TailwindCSS</li>
-              <li>Responsive Web Design</li>
+              <li>Mongoose</li>
+              <li>RESTful APIs / JSON</li>
+              <li>JWT (Authentication & Authorization)</li>
+              <li>Scrum</li>
+              <li>Agile Development Workflow</li>
+              <li>Software Development Life Cycle (SDLC)</li>
+              <li>Middleware Development</li>
               <li>API Development & Testing (Postman)</li>
               <li>Database Management (MongoDB Compass)</li>
               <li>Version Control (Git/GitHub)</li>
-              <li>Agile Development Workflow</li>
+              <li>Git Bash</li>
+              <li>Trello</li>
+              <li>Axios</li>
+              <li>WebSockets</li>
+              <li>Debugging</li>
+              <li>Leadership</li>
+              <li>Network Configuration</li>
+              <li>TailwindCSS</li>
+              <li>Responsive Web Design</li>
             </ul>
 
             <h2 className="text-xl font-semibold mt-4 mb-2">Experience</h2>
             <div className="mb-4">
-              <h3 className="text-lg font-semibold">NA</h3>
+              <h3 className="text-lg font-semibold">
+                Hands Together - Charity Platform
+              </h3>
               <p className="text-gray-700">
-                If you're reading this steven or carter I am leaving this
-                section blank for now becaus I don't actually know what I could
-                put. I have a meeting with our career coach for resume and I will ask her then and make changes. I will also be leaving the projects route blank because I
-                don't have any projects that are really worth showing yet. I
-                plan to ask mary if I can use the capstone in there though when
-                the time comes. this is in essence a rough draft because I will
-                make major changes to this page before it's ever actually used I was just curious how fast development of the front end could be done when using open source components and react etc
+                I played a key role in developing Hands Together, a
+                user-friendly charity platform that helps users discover local
+                charities. I designed and implemented frontend components for
+                charity post creation, user authentication, and navigation using
+                React.js, ensuring a responsive and seamless user experience. On
+                the backend, I integrated JWT authentication with MongoDB using
+                Express and Mongoose, enabling secure data handling and
+                efficient API communication with Axios. I leveraged Postman for
+                thorough API testing and maintained version control with Git to
+                ensure code quality. Leading the development of both the
+                frontend and backend, I ensured smooth integration between the
+                React client and Express server. Additionally, I collaborated
+                with sponsors and stakeholders to align project decisions with
+                user needs, enhancing the platform’s usability and
+                effectiveness.
               </p>
-              <p className="text-gray-600">January 99BC - the futureeeee</p>
+              <p className="text-gray-600">December 2024 - January 2025</p>
             </div>
 
             <div className="mb-4">
-              <h3 className="text-lg font-semibold">NA</h3>
-              <p className="text-gray-700">NA</p>
-              <p className="text-gray-600">unknown time-unknownER time</p>
+              <h3 className="text-lg font-semibold">
+                Student Developer Upright Education / Old Dominion University
+              </h3>
+              <p className="text-gray-700"></p>
+              <p className="text-gray-600">
+                I want to preface this with a little about me, I have been
+                Coding far before I decided to pursue a formal education. From
+                July 2024 to January 2025, I completed weekly projects as part
+                of a fully immersive software development course, gaining
+                hands-on experience in full-stack development. I developed a
+                web-based real-time chat application using React.js for the
+                frontend and Node.js with Express.js for the backend,
+                integrating user authentication with JWT and enabling real-time
+                communication with WebSockets. Additionally, I built an
+                interactive Jeopardy board game using HTML, CSS, and JavaScript,
+                incorporating game logic, player score tracking, and user
+                interaction features. Throughout these projects, I utilized Git
+                for version control, ensuring efficient collaboration and
+                maintainable codebases while optimizing performance and
+                usability.
+              </p>
             </div>
 
             <h2 className="text-xl font-semibold mt-4 mb-2">Education</h2>
             <div className="mb-4">
               <h3 className="text-lg font-semibold">
-                Software Development Certificate
+                Software Development Certificate(s)
               </h3>
               <p className="text-gray-700">
                 Old Dominion University/ Upright Education
