@@ -37,7 +37,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+          <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
             <div className="relative h-56 sm:h-72 md:h-96 lg:w-full lg:h-full">
               <img
                 className="absolute inset-0 w-full h-full object-cover brightness-50"
@@ -81,18 +81,32 @@ const Projects = () => {
       <section className="relative bg-[url(https://images7.alphacoders.com/120/thumb-1920-1205979.png)] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 sm:bg-gradient-to-r"></div>
 
-        <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-          <div className="max-w-xl text-center sm:text-left">
+        <div className="relative mx-auto max-w-screen-xl px-4 py-20 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8 lg:justify-between">
+          {/* Text Section */}
+          <div className="max-w-xl text-center sm:text-left lg:w-1/2">
             <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
               Project
               <strong className="block font-extrabold">Demo</strong>
             </h1>
 
             <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-              here is a short demo of the project in action.
+              Here is a short demo of the project in action.
             </p>
+          </div>
 
-            <div className="mt-8 flex flex-wrap gap-4 text-center"></div>
+          {/* Video Section */}
+          <div className="mt-8 lg:mt-0 lg:w-1/2 lg:flex lg:justify-end">
+            <div className="w-full max-w-2xl aspect-video">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/L-CGCwRPA-s?si=F7hQ9fSt7_ZeaQBn"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>
