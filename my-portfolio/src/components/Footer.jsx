@@ -39,7 +39,7 @@ const Footer = () => {
 
             <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left dark:text-gray-400">
               Email: SethMarina53@gmail.com<br/>
-              Phone Number: (757)-940-1218
+              Phone Number: (757)-800-9488
             </p>
           </div>
             
