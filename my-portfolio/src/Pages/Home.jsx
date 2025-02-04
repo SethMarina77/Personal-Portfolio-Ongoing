@@ -140,6 +140,7 @@ const Home = () => {
               <li>Network Configuration</li>
               <li>TailwindCSS</li>
               <li>Responsive Web Design</li>
+              <li>PostgresQL</li>
             </ul>
 
             <h2 className="text-xl font-semibold mt-4 mb-2">Experience</h2>
