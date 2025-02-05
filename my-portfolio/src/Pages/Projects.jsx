@@ -30,7 +30,7 @@ const Projects = () => {
                     className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white "
                   >
                     <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                      See Projects
+                      Learn More
                     </span>
                   </button>
                 </div>
@@ -75,10 +75,22 @@ const Projects = () => {
               />
             </div>
           </div>
+          <button
+            onClick={() => {
+              document.getElementById("videoPreview1").scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
+            className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white "
+          >
+            <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+              See Projects
+            </span>
+          </button>
         </div>
       </div>
 
-      <section className="relative bg-[url(https://images7.alphacoders.com/120/thumb-1920-1205979.png)] bg-cover bg-center bg-no-repeat">
+      <section id="videoPreview1" className="relative bg-[url(https://images7.alphacoders.com/120/thumb-1920-1205979.png)] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 sm:bg-gradient-to-r"></div>
 
         <div className="relative mx-auto max-w-screen-xl px-4 py-20 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8 lg:justify-between">
