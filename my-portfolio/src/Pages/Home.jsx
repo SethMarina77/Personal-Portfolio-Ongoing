@@ -193,14 +193,25 @@ const Home = () => {
             </div>
 
             <h2 className="text-xl font-semibold mt-4 mb-2">Education</h2>
+            <p className="text-gray-700">Old Dominion University 2025</p>
             <div className="mb-4">
-              <h3 className="text-lg font-semibold">
+              <h3 className="text-lg font-semibold mb-2">
                 Software Development Certificate(s)
               </h3>
-              <p className="text-gray-700">
-                Old Dominion University/ Upright Education
-              </p>
-              <p className="text-gray-600">Graduated in january 2025</p>
+
+              <ul className="list-disc list-inside text-gray-700">
+                <li>Express MongoDB Back-end Development - ODU</li>
+                <li>
+                  Full-Stack JavaScript Software Development Bootcamp Completion
+                  - ODU
+                </li>
+                <li>JavaScript Development Foundations - ODU</li>
+                <li>React Front-end Development - ODU</li>
+                <li>
+                  MTA: HTML5 Application Development Fundamentals - Certified
+                  2017
+                </li>
+              </ul>
             </div>
           </div>
         </div>
