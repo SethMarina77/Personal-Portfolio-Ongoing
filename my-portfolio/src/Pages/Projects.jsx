@@ -1,6 +1,12 @@
 import htIMG1 from "../pictures/BROWSE.jpg";
+import { useEffect } from "react";
 
 const Projects = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="">
       <div className="h-[100vh] bg-gradient-to-r from-indigo-900 to-purple-900 font-[sans-serif]">
