@@ -14,7 +14,7 @@ const Home = () => {
           <div className="grid grid-cols-1 gap-4 md:grid-cols-4 md:items-center md:gap-8">
             <div className="md:col-span-3">
               <img
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29kZXxlbnwwfHwwfHx8MA%3D%3D"
+                src="https://images2.alphacoders.com/137/thumb-1920-1372963.png"
                 className="rounded"
                 alt=""
               />
