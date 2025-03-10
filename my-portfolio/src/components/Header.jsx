@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import img1 from "../pictures/Img1.png";
+import img2 from "../pictures/Img2.png";
 
 //Hyper Ui was used to aid with some tailwind components
 const Header = () => {
@@ -16,7 +18,27 @@ const Header = () => {
               Personal Portfolio page
             </p>
           </div>
-          <nav className="">
+          <div className="flex items-center gap-8">
+            <a target="_blank" href="https://github.com/SethMarina77">
+              <img
+                className="w-14 h-14 transition transform hover:scale-110"
+                src={img1}
+                alt="Profile"
+              />
+            </a>
+
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/seth-marina77/"
+            >
+              <img
+                className="w-14 h-14 transition transform hover:scale-110"
+                src={img2}
+                alt="Profile"
+              />
+            </a>
+          </div>
+          <nav>
             <ul className="flex space-x-4">
               <li className=" p-2 rounded">
                 <Link to="/" className="group-hover:text-gray-300">
