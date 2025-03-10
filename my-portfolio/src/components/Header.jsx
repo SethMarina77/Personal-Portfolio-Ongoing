@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import img1 from "../pictures/Img1.png";
 import img2 from "../pictures/Img2.png";
+import img3 from "../pictures/Img3.png";
 
 //Hyper Ui was used to aid with some tailwind components
 const Header = () => {
@@ -70,6 +71,15 @@ const Header = () => {
               </li>
             </ul>
           </nav>
+          <a href="/SethMarinaResume.pdf" download="sethMarinaCSV.pdf">
+            <button className="text-white">
+              <img
+                className="w-14 h-14 transition transform hover:scale-110"
+                src={img3}
+                alt="DownloadCSV"
+              ></img>
+            </button>
+          </a>
         </div>
       </div>
     </header>
