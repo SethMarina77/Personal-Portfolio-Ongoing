@@ -8,7 +8,7 @@ const Home = () => {
   }, []);
   
   return (
-    <div className="pt-16 h-full">
+    <div className="h-full">
       <section>
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-4 md:items-center md:gap-8">
@@ -22,7 +22,7 @@ const Home = () => {
 
             <div className="md:col-span-1">
               <div className="max-w-lg md:max-w-none">
-                <h2 className="text-2xl font-semibold text-gray-900 sm:text-3xl">
+                <h2 className="text-2xl font-semibold text-white sm:text-3xl">
                   Seth Marina Personal Portfolio
                 </h2>
 
