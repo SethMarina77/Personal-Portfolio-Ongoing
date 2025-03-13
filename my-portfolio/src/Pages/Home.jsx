@@ -28,7 +28,7 @@ const Home = () => {
 
                 <p className="mt-4 text-gray-700">
                   Location: Virginia Hampton Roads Metropolitan Area <br />
-                  DOB: 06/04/2001
+                  
                 </p>
               </div>
             </div>
