@@ -78,7 +78,7 @@ const Projects = () => {
             <div>
               <img
                 src={htIMG1}
-                className="shrink-0 w-full h-full md:skew-x-[-22deg] md:-rotate-1 rounded-md object-contain"
+                className="shrink-0 w-full h-full  rounded-md object-contain"
               />
             </div>
           </div>
@@ -154,7 +154,7 @@ const Projects = () => {
             <div>
               <img
                 src={htIMG2}
-                className="shrink-0 w-full h-full md:skew-x-[-22deg] md:-rotate-1 rounded-md object-contain"
+                className="shrink-0 w-full h-full  rounded-md object-contain"
               />
             </div>
           </div>
