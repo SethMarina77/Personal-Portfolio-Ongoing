@@ -30,17 +30,17 @@ const MoreAboutMe = () => {
   };
 
   return (
-    <div className="pt-8 h-[100vh]">
+    <div className="pt-8 h-[100vh] bg-neutral-900">
       <section>
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
             <div className="lg:col-span-2 lg:py-12">
-              <p className="max-w-xl text-lg">
+              <p className="max-w-xl text-lg text-gray-200">
                 If you'd like to speak with me, please don't hesitate.
               </p>
 
               <div className="mt-8">
-                <a href="#" className="text-2xl font-bold text-pink-600">
+                <a href="#" className="text-2xl font-bold text-gray-200">
                   Send me a message!
                 </a>
               </div>
