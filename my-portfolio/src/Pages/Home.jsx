@@ -39,12 +39,16 @@ const Home = () => {
       <div className="bg-neutral-900 font-sans">
         <div className="container mx-auto py-8 px-4">
           <div className="bg-zinc-950 p-6 rounded-lg shadow-lg">
-            <h1 className="text-3xl font-semibold text-gray-200">Seth Marina</h1>
+            <h1 className="text-3xl font-semibold text-gray-200">
+              Seth Marina
+            </h1>
             <p className="text-gray-200">Software Engineer</p>
 
             <hr className="my-4" />
 
-            <h2 className="text-xl font-semibold mb-2 text-gray-200">Summary</h2>
+            <h2 className="text-xl font-semibold mb-2 text-gray-200">
+              Summary
+            </h2>
             <p className="text-gray-200">
               Full-Stack Developer with expertise in React, JavaScript,
               TailwindCSS, and the MERN stack. Proficient in API development,
@@ -54,7 +58,9 @@ const Home = () => {
               technologies to improve development workflows.
             </p>
 
-            <h2 className="text-xl font-semibold mt-4 mb-2 text-gray-200">Skills</h2>
+            <h2 className="text-xl font-semibold mt-4 mb-2 text-gray-200">
+              Skills
+            </h2>
             <ul class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2 p-4">
               <li class="border rounded-full px-3 py-1 text-center text-white bg-red-500 border-red-500">
                 HTML/CSS
@@ -64,6 +70,9 @@ const Home = () => {
               </li>
               <li class="border rounded-full px-3 py-1 text-center text-white bg-green-500 border-green-500">
                 PostgreSQL
+              </li>
+              <li class="border rounded-full px-3 py-1 text-center text-white bg-teal-500 border-teal-500">
+                Playwright Automation
               </li>
               <li class="border rounded-full px-3 py-1 text-center text-white bg-yellow-500 border-yellow-500">
                 TypeScript
