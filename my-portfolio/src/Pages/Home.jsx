@@ -71,6 +71,9 @@ const Home = () => {
               <li class="border rounded-full px-3 py-1 text-center text-white bg-green-500 border-green-500">
                 PostgreSQL
               </li>
+              <li class="border rounded-full px-3 py-1 text-center text-white bg-blue-600 border-blue-600">
+                Docker
+              </li>
               <li class="border rounded-full px-3 py-1 text-center text-white bg-teal-500 border-teal-500">
                 Playwright Automation
               </li>
